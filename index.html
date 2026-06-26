@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan Graphics | Bringing Imagination to Reality</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body class="bg-zinc-50 text-zinc-900 overflow-x-hidden">
+
+    <!-- Navigation -->
+    <nav class="bg-white border-b sticky top-0 z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-blue-600 rounded-2xl flex items-center justify-center text-white font-bold text-3xl shadow-inner">N</div>
+                <div>
+                    <span class="font-bold text-2xl tracking-tight">Nathan</span>
+                    <span class="font-bold text-2xl tracking-tight text-blue-600">Graphics</span>
+                </div>
+            </div>
+            
+            <div class="hidden md:flex items-center gap-9 text-sm font-medium">
+                <a href="#home" class="nav-link text-zinc-600 hover:text-blue-600">Home</a>
+                <a href="#about" class="nav-link text-zinc-600 hover:text-blue-600">About</a>
+                <a href="#projects" class="nav-link text-zinc-600 hover:text-blue-600">Projects</a>
+                <a href="#testimonials" class="nav-link text-zinc-600 hover:text-blue-600">Testimonials</a>
+                <a href="#contact" class="nav-link text-zinc-600 hover:text-blue-600">Contact</a>
+            </div>
+            
+            <a href="#contact" class="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-2xl font-semibold text-sm transition-all flex items-center gap-2">
+                <i class="fas fa-paper-plane"></i>
+                Collaborate
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg min-h-screen flex items-center relative">
+        <div class="max-w-7xl mx-auto px-6 py-20 md:py-28 w-full">
+            <div class="grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
+                <div class="space-y-8 animate-from-top">
+                    <div class="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-6 py-3 rounded-3xl shadow text-sm font-medium text-zinc-700">
+                        <div class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></div>
+                        Available for freelance projects
+                    </div>
+                    
+                    <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tighter leading-none section-header">
+                        Welcome to<br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-blue-500 to-cyan-500">NATHAN<br>GRAPHICS</span>
+                    </h1>
+                    
+                    <p class="text-xl md:text-2xl text-zinc-600 max-w-lg">
+                        Bringing imagination to reality through bold, functional, and impactful design.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                        <a href="#projects" class="px-8 py-4 bg-zinc-900 hover:bg-black text-white rounded-3xl font-semibold flex items-center justify-center gap-3 transition-all text-lg">
+                            View Projects <span class="text-xl">→</span>
+                        </a>
+                        <a href="#contact" class="px-8 py-4 border-2 border-zinc-900 hover:bg-zinc-100 rounded-3xl font-semibold transition-all text-lg text-center">
+                            Hire Me
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="relative animate-from-bottom">
+                    <div class="absolute inset-0 bg-gradient-to-br from-blue-400/20 to-cyan-300/20 rounded-[3rem] -rotate-6 scale-105"></div>
+                    <img src="my picture.jpg"
+                         alt="Nathan Graphics Hero" 
+                         class="relative w-full rounded-3xl shadow-2xl object-cover border border-white">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 md:py-28 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-12 gap-16 items-center">
+                <div class="md:col-span-7 space-y-8 animate-on-scroll">
+                    <div class="uppercase text-blue-600 font-medium tracking-widest">ABOUT ME</div>
+                    <h2 class="text-4xl md:text-5xl font-bold tracking-tight leading-tight">Passionate designer turning visions into powerful visuals</h2>
+                    <div class="space-y-6 text-lg text-zinc-600">
+                        <p>Hello, I'm Nathan Ademola, a creative graphic designer with 6+ years of experience in branding, digital marketing, and visual storytelling.</p>
+                        <p>I craft designs that are both beautiful and strategic — from concept to final delivery.</p>
+                    </div>
+                </div>
+                <div class="md:col-span-5 animate-on-scroll">
+                    <div class="rounded-3xl overflow-hidden shadow-2xl bg-zinc-100">
+                        <img src="logo.jpg"
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="py-20 bg-zinc-900 text-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 animate-on-scroll">
+                <span class="px-5 py-2 bg-white/10 rounded-full text-sm">SERVICES</span>
+                <h2 class="text-4xl md:text-5xl font-bold mt-4">What I Deliver</h2>
+            <div class="mb-6">
+        <img src="brand.jpg"
+             alt="Print Design Example" 
+             class="w-24 h-24 mx-auto rounded-2xl object-cover shadow-md border border-amber-400">
+    </div>
+    <h3 class="text-2xl font-semibold mb-3">Brand Design</h3>
+   <p class="text-zinc-400">Logos, visual systems, and cohesive brand identities that make your business unforgettable.</p>
+                </div>
+                    
+                </div>
+                <div class="bg-zinc-800/70 p-10 rounded-3xl hover:bg-zinc-800 transition-all animate-on-scroll">
+                      <div class="mb-6">
+        <img src="social.jpg"
+             alt="Print Design Example" 
+             class="w-24 h-24 mx-auto rounded-2xl object-cover shadow-md border border-amber-400">
+    </div>
+    <h3 class="text-2xl font-semibold mb-3">Social media design</h3>
+   <p class="text-zinc-400">Social media graphics, motion assets, banners, and campaigns optimized for engagement.</p>
+                </div>
+    </div>
+</div>
+                    
+                <div class="bg-zinc-800/70 p-10 rounded-3xl hover:bg-zinc-800 transition-all animate-on-scroll">
+                  <div class="bg-zinc-800/70 p-10 rounded-3xl ...">
+    <div class="mb-6">
+        <img src="https://picsum.photos/id/180/300/200" 
+             alt="Print Design Example" 
+             class="w-24 h-24 mx-auto rounded-2xl object-cover shadow-md border border-amber-400">
+    </div>
+    <h3 class="text-2xl font-semibold mb-3">Print Design</h3>
+    <p class="text-zinc-400">Business flyers, posters, packaging, brochures, and premium print collateral.</p>
+    
+</div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-20 md:py-28 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="mb-12 animate-on-scroll">
+                <span class="uppercase text-blue-600 text-sm font-medium">Featured Work</span>
+                <h2 class="text-4xl md:text-5xl font-bold tracking-tight">Recent Projects</h2>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="portfolio-card bg-white border border-zinc-100 rounded-3xl overflow-hidden animate-on-scroll">
+                    <div class="relative h-64">
+                        <img src="brand.jpg"class="w-full h-full object-cover" alt="">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-semibold text-xl">Bold Pro Logistics</h3>
+                        <p class="text-zinc-500 text-sm">Branding &amp; Marketing Materials</p>
+                    </div>
+                </div>
+                <div class="portfolio-card bg-white border border-zinc-100 rounded-3xl overflow-hidden animate-on-scroll">
+                    <div class="relative h-64">
+                        <img src="social.jpg" class="w-full h-full object-cover" alt="">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-semibold text-xl">Tope Shot</h3>
+                        <p class="text-zinc-500 text-sm">Event Design Series</p>
+                    </div>
+                </div>
+                <div class="portfolio-card bg-white border border-zinc-100 rounded-3xl overflow-hidden animate-on-scroll">
+                    <div class="relative h-64">
+                        <img src="img.jpg" class="w-full h-full object-cover" alt="">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-semibold text-xl">Naphtex Gadget</h3>
+                        <p class="text-zinc-500 text-sm">Campaign Visuals</p>
+                        
+      
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="portfolio-card bg-white border border-zinc-100 rounded-3xl overflow-hidden animate-on-scroll">
+                    <div class="relative h-64">
+                        <img src="img1.jpg"class="w-full h-full object-cover" alt="">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-semibold text-xl">Collins Cobler</h3>
+                        <p class="text-zinc-500 text-sm">Quality Flyer Design</p>
+                    </div>
+                </div>
+                <div class="portfolio-card bg-white border border-zinc-100 rounded-3xl overflow-hidden animate-on-scroll">
+                    <div class="relative h-64">
+                        <img src="img2.jpg" class="w-full h-full object-cover" alt="">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-semibold text-xl">Church Flyer</h3>
+                        <p class="text-zinc-500 text-sm">Quality Church flyer design</p>
+                    </div>
+                </div>
+                <div class="portfolio-card bg-white border border-zinc-100 rounded-3xl overflow-hidden animate-on-scroll">
+                    <div class="relative h-64">
+                        <img src="img3.jpg" class="w-full h-full object-cover" alt="">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-semibold text-xl">Alpha food</h3>
+                        <p class="text-zinc-500 text-sm">Sticker Design</p>                 
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creative Process -->
+    <section class="py-20 bg-zinc-100">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 animate-on-scroll">
+                <h2 class="text-4xl md:text-5xl font-bold tracking-tight">My Creative Process</h2>
+            </div>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center animate-on-scroll">
+                    <div class="w-20 h-20 mx-auto bg-blue-100 rounded-3xl flex items-center justify-center text-4xl mb-6">1️⃣</div>
+                    <h4 class="font-semibold mb-3">Discovery</h4>
+                    <p class="text-zinc-600">Understanding your brand, goals, and audience.</p>
+                </div>
+                <div class="text-center animate-on-scroll">
+                    <div class="w-20 h-20 mx-auto bg-blue-100 rounded-3xl flex items-center justify-center text-4xl mb-6">2️⃣</div>
+                    <h4 class="font-semibold mb-3">Ideation</h4>
+                    <p class="text-zinc-600">Brainstorming concepts and mood boards.</p>
+                </div>
+                <div class="text-center animate-on-scroll">
+                    <div class="w-20 h-20 mx-auto bg-blue-100 rounded-3xl flex items-center justify-center text-4xl mb-6">3️⃣</div>
+                    <h4 class="font-semibold mb-3">Design</h4>
+                    <p class="text-zinc-600">Creating stunning visuals with attention to detail.</p>
+                </div>
+                <div class="text-center animate-on-scroll">
+                    <div class="w-20 h-20 mx-auto bg-blue-100 rounded-3xl flex items-center justify-center text-4xl mb-6">4️⃣</div>
+                    <h4 class="font-semibold mb-3">Delivery</h4>
+                    <p class="text-zinc-600">Final files + unlimited revisions until you're happy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-20 md:py-28 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 animate-on-scroll">
+                <h2 class="text-4xl md:text-5xl font-bold tracking-tight">Client Testimonials</h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-zinc-50 p-8 rounded-3xl animate-on-scroll">
+                    <div class="text-yellow-400 text-3xl mb-6">★★★★★</div>
+                    <p class="italic">"Nathan transformed our brand. Exceptional creativity and professionalism."</p>
+                    <div class="mt-8 font-medium">— Aisha Oladipo</div>
+                </div>
+                <div class="bg-zinc-50 p-8 rounded-3xl animate-on-scroll">
+                    <div class="text-yellow-400 text-3xl mb-6">★★★★☆</div>
+                    <p class="italic">"Fast delivery and outstanding results. Highly recommended!"</p>
+                    <div class="mt-8 font-medium">— Michael Adebayo</div>
+                </div>
+                <div class="bg-zinc-50 p-8 rounded-3xl animate-on-scroll">
+                    <div class="text-yellow-400 text-3xl mb-6">★★★★★</div>
+                    <p class="italic">"He perfectly captured our vision. A true professional."</p>
+                    <div class="mt-8 font-medium">— Fatima Bello</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 md:py-28 bg-zinc-900 text-white">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="bg-zinc-800 rounded-3xl p-10 md:p-16 animate-on-scroll">
+                <div class="max-w-2xl mx-auto">
+                    <h2 class="text-5xl md:text-6xl font-bold leading-none mb-6">Let's bring<br>your ideas to life</h2>
+                    <p class="text-xl text-zinc-400 mb-12">Ready to elevate your brand? I'm currently accepting new projects.</p>
+                    
+                    <div class="space-y-10">
+                        <div class="flex gap-5">
+                            <div class="w-12 h-12 bg-yellow-500/10 rounded-2xl flex items-center justify-center text-3xl flex-shrink-0">✉️</div>
+                            <div>
+                                <div class="text-sm uppercase tracking-widest text-zinc-400 mb-1">Email</div>
+                                <a href="mailto:nathanieltemiloluwa9@gmail.com" class="text-blue-300 hover:text-white text-lg">nathan@nathangra<br>phics.com</a>
+                            </div>
+                        </div>
+                        <div class="flex gap-5">
+                            <div class="w-12 h-12 bg-blue-500/10 rounded-2xl flex items-center justify-center text-3xl flex-shrink-0">📞</div>
+                            <div>
+                                <div class="text-sm uppercase tracking-widest text-zinc-400 mb-1">Phone</div>
+                                <a href="tel:+2347055022172" class="text-blue-300 hover:text-white text-lg">+2347055022172</a>
+                            </div>
+                        </div>
+                        <div class="flex gap-5">
+                            <div class="w-12 h-12 bg-pink-500/10 rounded-2xl flex items-center justify-center text-3xl flex-shrink-0">📷</div>
+                            <div>
+                                <div class="text-sm uppercase tracking-widest text-zinc-400 mb-1">Instagram</div>
+                                <a href="#" class="text-blue-300 hover:text-white text-lg">@nathangraphics</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          <div class="mt-12 max-w-2xl mx-auto bg-white border-zinc-200 rounded-3xl p-10 shadow-sm animate-on-scroll">
+    <h3 class="text-2xl font-semibold mb-8 text-center text-zinc-900">Or send me a direct message</h3>
+    <form id="contact-form" class="space-y-6">
+        <div>
+            <input type="text" placeholder="Your full name" required class="w-full px-6 py-4 border-zinc-300 rounded-2xl focus:outline-none focus:border-blue-500 bg-zinc-100 text-zinc-900">
+        </div>
+        <div>
+            <input type="email" placeholder="Email address" required class="w-full px-6 py-4 border-zinc-300 rounded-2xl focus:outline-none focus:border-blue-500 bg-zinc-100 text-zinc-900">
+        </div>
+        <div>
+            <textarea placeholder="Tell me about your project..." rows="5" required class="w-full px-6 py-4 border-zinc-300 rounded-3xl focus:outline-none focus:border-blue-500 resize-y bg-zinc-100 text-zinc-900"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 rounded-3xl transition-colors text-lg">
+            SEND MESSAGE
+        </button>
+    </form>
+</div>
+        </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-zinc-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <div class="flex justify-center items-center gap-3 mb-6">
+                <div class="w-9 h-9 bg-blue-600 rounded-2xl flex items-center justify-center text-3xl font-bold">N</div>
+                <span class="text-3xl font-bold">Nathan Graphics</span>
+            </div>
+            <p class="text-zinc-400">© 2026 Nathan Graphics. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="fab-container">
+        <div onclick="showInboxModal()" class="fab fab-green">
+            <i class="fas fa-inbox"></i>
+        </div>
+        <div onclick="showFeedbackModal()" class="fab fab-orange">
+            <i class="fas fa-comment-dots"></i>
+        </div>
+    </div>
+
+    <!-- Inbox Modal -->
+    <div id="inbox-modal" class="modal">
+        <div class="modal-content p-8">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-2xl font-semibold">My Inbox - Admin Replies</h2>
+                <button onclick="closeModals()" class="text-4xl leading-none text-zinc-400 hover:text-black">&times;</button>
+            </div>
+            <div class="mb-6">
+                <input id="inbox-email" type="email" placeholder="Enter your email address" 
+                       class="w-full px-5 py-4 border border-gray-300 rounded-2xl focus:outline-none focus:border-emerald-500 text-lg">
+            </div>
+            <button onclick="viewReplies()" 
+                    class="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-4 rounded-2xl text-lg flex items-center justify-center gap-3">
+                View My Replies <i class="fas fa-arrow-right"></i>
+            </button>
+            <button onclick="closeModals()" class="w-full mt-4 bg-gray-200 hover:bg-gray-300 text-zinc-700 font-medium py-4 rounded-2xl">Close</button>
+        </div>
+    </div>
+
+    <!-- Feedback Modal -->
+    <div id="feedback-modal" class="modal">
+        <div class="modal-content p-8">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-2xl font-semibold">Submit Your Complaint / Feedback</h2>
+                <button onclick="closeModals()" class="text-4xl leading-none text-zinc-400 hover:text-black">&times;</button>
+            </div>
+            <div class="space-y-5">
+                <input id="feedback-name" type="text" placeholder="Your Full Name" 
+                       class="w-full px-5 py-4 border border-gray-300 rounded-2xl focus:outline-none focus:border-orange-500">
+                <input id="feedback-email" type="email" placeholder="Your Email Address" 
+                       class="w-full px-5 py-4 border border-gray-300 rounded-2xl focus:outline-none focus:border-orange-500">
+                <textarea id="feedback-message" placeholder="Please describe your complaint or feedback here..." rows="5"
+                          class="w-full px-5 py-4 border border-gray-300 rounded-3xl focus:outline-none focus:border-orange-500 resize-y"></textarea>
+            </div>
+            <div class="flex gap-4 mt-8">
+                <button onclick="closeModals()" class="flex-1 bg-gray-200 hover:bg-gray-300 text-zinc-700 font-medium py-4 rounded-2xl">Cancel</button>
+                <button onclick="submitFeedback()" class="flex-1 bg-orange-500 hover:bg-orange-600 text-white font-semibold py-4 rounded-2xl">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <script   src="script.js">
+
+</script>
+</body>
+</html>
